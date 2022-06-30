@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App;
+namespace App\Normal;
 
 require_once('vendor/autoload.php');
 
@@ -16,7 +16,7 @@ class ClassA
     
     public function show()
     {
-        echo $this->classB->classC->show();
+        echo 'ClassA >> ' . $this->classB->show();
     }
 }
 

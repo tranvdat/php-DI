@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace App\IoC;
 
-use App\ClassC;
+use App\IoC\ClassC;
 
 class ClassB
 {
@@ -15,6 +15,6 @@ class ClassB
     
     public function show()
     {
-        return $this->classC->show();
+        return 'ClassB >> ' . $this->classC->show();
     }
 }

@@ -1,2 +1,3 @@
 - composer install
-- php src/ClassA.php
+- php src/Normal/ClassA.php
+- php src/IoC/ClassA.php
